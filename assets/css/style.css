@@ -1916,4 +1916,61 @@ textarea.form-input::-webkit-resizer { display: none; }
     top: -35px;
     font-size: 25px;
   }
+  
+  .language-toggle {
+    margin-top: 12px;
+  }
+  
+  .lang-btn {
+    width: 50px;
+    height: 35px;
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+
+/*-----------------------------------*\
+  #LANGUAGE TOGGLE BUTTON
+\*-----------------------------------*/
+
+.language-toggle {
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+.lang-btn {
+  background: var(--bg-gradient-onyx);
+  border: 1px solid var(--jet);
+  border-radius: 8px;
+  color: var(--orange-yellow-crayola);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 60px;
+  height: 40px;
+  margin: 0 auto;
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  transition: var(--transition-1);
+  letter-spacing: 1px;
+}
+
+.lang-btn:hover {
+  background: var(--bg-gradient-yellow-1);
+  border-color: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  transform: scale(1.05);
+}
+
+.lang-btn:active {
+  transform: scale(0.95);
+}
+
+.lang-text {
+  font-weight: var(--fw-600);
+  letter-spacing: 1px;
 }

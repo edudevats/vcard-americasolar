@@ -2,6 +2,7 @@
 
 
 
+
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
@@ -193,3 +194,7 @@ document.getElementById('imageModal').addEventListener('click', function(event) 
     closeModal();
   }
 });
+
+
+
+

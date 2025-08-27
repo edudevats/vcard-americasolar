@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(copy:*)"
+      "Bash(copy:*)",
+      "Bash(start \"\" \"C:\\desarrollo\\vcard\\vcard-americasolar\\index.html\")",
+      "Bash(start \"\" \"C:\\desarrollo\\vcard\\vcard-americasolar\\test-translation.html\")"
     ],
     "deny": [],
     "ask": []
